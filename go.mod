@@ -29,7 +29,7 @@ require (
 	github.com/stumble/gorocksdb v0.0.3 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20190923125748-758128399b1d // indirect
 	github.com/tendermint/go-amino v0.14.1
-	github.com/tendermint/tm-db v0.2.0
+	github.com/christianxiao/tm-db v0.2.0-polygon
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	golang.org/x/net v0.0.0-20190628185345-da137c7871d7
 	golang.org/x/sys v0.0.0-20190712062909-fae7ac547cb7 // indirect

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/christianxiao/tm-db"
 
 	abci "github.com/christianxiao/tendermint/abci/types"
 	cmn "github.com/christianxiao/tendermint/libs/common"

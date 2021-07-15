@@ -9,8 +9,8 @@ import (
 	log "github.com/christianxiao/tendermint/libs/log"
 	lerr "github.com/christianxiao/tendermint/lite/errors"
 	"github.com/christianxiao/tendermint/types"
+	dbm "github.com/christianxiao/tm-db"
 	amino "github.com/tendermint/go-amino"
-	dbm "github.com/tendermint/tm-db"
 )
 
 var _ PersistentProvider = (*DBProvider)(nil)

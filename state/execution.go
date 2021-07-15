@@ -11,7 +11,7 @@ import (
 	mempl "github.com/christianxiao/tendermint/mempool"
 	"github.com/christianxiao/tendermint/proxy"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 //-----------------------------------------------------------------------------

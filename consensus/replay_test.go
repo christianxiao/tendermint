@@ -29,7 +29,7 @@ import (
 	sm "github.com/christianxiao/tendermint/state"
 	"github.com/christianxiao/tendermint/types"
 	"github.com/christianxiao/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 func TestMain(m *testing.M) {

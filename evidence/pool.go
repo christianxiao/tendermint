@@ -6,7 +6,7 @@ import (
 
 	clist "github.com/christianxiao/tendermint/libs/clist"
 	"github.com/christianxiao/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 
 	sm "github.com/christianxiao/tendermint/state"
 	"github.com/christianxiao/tendermint/types"

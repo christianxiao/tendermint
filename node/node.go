@@ -44,8 +44,8 @@ import (
 	"github.com/christianxiao/tendermint/types"
 	tmtime "github.com/christianxiao/tendermint/types/time"
 	"github.com/christianxiao/tendermint/version"
+	dbm "github.com/christianxiao/tm-db"
 	amino "github.com/tendermint/go-amino"
-	dbm "github.com/tendermint/tm-db"
 )
 
 //------------------------------------------------------------------------------

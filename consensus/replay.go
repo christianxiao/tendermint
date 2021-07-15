@@ -13,7 +13,7 @@ import (
 
 	abci "github.com/christianxiao/tendermint/abci/types"
 	//auto "github.com/christianxiao/tendermint/libs/autofile"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 
 	"github.com/christianxiao/tendermint/libs/log"
 	"github.com/christianxiao/tendermint/mock"

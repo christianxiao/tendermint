@@ -6,7 +6,7 @@ import (
 	abci "github.com/christianxiao/tendermint/abci/types"
 	cmn "github.com/christianxiao/tendermint/libs/common"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 const (

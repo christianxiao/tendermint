@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 
 	cmn "github.com/christianxiao/tendermint/libs/common"
 	"github.com/christianxiao/tendermint/libs/pubsub/query"

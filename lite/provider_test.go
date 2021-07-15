@@ -10,7 +10,7 @@ import (
 	log "github.com/christianxiao/tendermint/libs/log"
 	lerr "github.com/christianxiao/tendermint/lite/errors"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 // missingProvider doesn't store anything, always a miss.

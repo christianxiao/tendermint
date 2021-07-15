@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 
 	"github.com/christianxiao/tendermint/types"
 )

@@ -12,7 +12,7 @@ import (
 	"github.com/christianxiao/tendermint/state/txindex"
 	"github.com/christianxiao/tendermint/state/txindex/kv"
 	"github.com/christianxiao/tendermint/types"
-	db "github.com/tendermint/tm-db"
+	db "github.com/christianxiao/tm-db"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

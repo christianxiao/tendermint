@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
+	dbm "github.com/christianxiao/tm-db"
 	"github.com/pkg/errors"
-	dbm "github.com/tendermint/tm-db"
 
 	cfg "github.com/christianxiao/tendermint/config"
 	cmn "github.com/christianxiao/tendermint/libs/common"

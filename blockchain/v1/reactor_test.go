@@ -18,9 +18,9 @@ import (
 	"github.com/christianxiao/tendermint/store"
 	"github.com/christianxiao/tendermint/types"
 	tmtime "github.com/christianxiao/tendermint/types/time"
+	dbm "github.com/christianxiao/tm-db"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	dbm "github.com/tendermint/tm-db"
 )
 
 var config *cfg.Config

@@ -14,7 +14,7 @@ import (
 	"github.com/christianxiao/tendermint/libs/log"
 	"github.com/christianxiao/tendermint/p2p"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 // evidenceLogger is a TestingLogger which uses a different

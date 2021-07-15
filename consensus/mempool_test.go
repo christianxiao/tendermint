@@ -14,7 +14,7 @@ import (
 	mempl "github.com/christianxiao/tendermint/mempool"
 	sm "github.com/christianxiao/tendermint/state"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 // for testing

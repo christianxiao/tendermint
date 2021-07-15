@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	db "github.com/christianxiao/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	db "github.com/tendermint/tm-db"
-	dbm "github.com/tendermint/tm-db"
 
 	cfg "github.com/christianxiao/tendermint/config"
 	"github.com/christianxiao/tendermint/libs/log"

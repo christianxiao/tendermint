@@ -10,7 +10,7 @@ import (
 	cmn "github.com/christianxiao/tendermint/libs/common"
 	"github.com/christianxiao/tendermint/libs/pubsub/query"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 func BenchmarkTxSearch(b *testing.B) {

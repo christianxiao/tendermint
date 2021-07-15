@@ -12,7 +12,7 @@ import (
 	"github.com/christianxiao/tendermint/crypto/ed25519"
 	"github.com/christianxiao/tendermint/libs/log"
 	tmtypes "github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 const (

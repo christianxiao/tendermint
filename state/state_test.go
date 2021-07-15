@@ -12,9 +12,9 @@ import (
 	"github.com/christianxiao/tendermint/crypto/ed25519"
 	cmn "github.com/christianxiao/tendermint/libs/common"
 	sm "github.com/christianxiao/tendermint/state"
+	dbm "github.com/christianxiao/tm-db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	dbm "github.com/tendermint/tm-db"
 
 	cfg "github.com/christianxiao/tendermint/config"
 	"github.com/christianxiao/tendermint/types"

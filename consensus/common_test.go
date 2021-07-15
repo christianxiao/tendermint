@@ -32,7 +32,7 @@ import (
 	"github.com/christianxiao/tendermint/store"
 	"github.com/christianxiao/tendermint/types"
 	tmtime "github.com/christianxiao/tendermint/types/time"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 const (

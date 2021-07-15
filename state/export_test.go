@@ -3,7 +3,7 @@ package state
 import (
 	abci "github.com/christianxiao/tendermint/abci/types"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 //

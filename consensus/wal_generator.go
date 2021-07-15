@@ -21,7 +21,7 @@ import (
 	sm "github.com/christianxiao/tendermint/state"
 	"github.com/christianxiao/tendermint/store"
 	"github.com/christianxiao/tendermint/types"
-	db "github.com/tendermint/tm-db"
+	db "github.com/christianxiao/tm-db"
 )
 
 // WALGenerateNBlocks generates a consensus WAL. It does this by spinning up a

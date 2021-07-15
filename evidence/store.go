@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 /*

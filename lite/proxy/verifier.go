@@ -6,7 +6,7 @@ import (
 	log "github.com/christianxiao/tendermint/libs/log"
 	"github.com/christianxiao/tendermint/lite"
 	lclient "github.com/christianxiao/tendermint/lite/client"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 func NewVerifier(chainID, rootDir string, client lclient.SignStatusClient, logger log.Logger, cacheSize int) (*lite.DynamicVerifier, error) {

@@ -11,7 +11,7 @@ import (
 	cfg "github.com/christianxiao/tendermint/config"
 	sm "github.com/christianxiao/tendermint/state"
 	"github.com/christianxiao/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 func TestStoreLoadValidators(t *testing.T) {

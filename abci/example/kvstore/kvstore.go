@@ -10,7 +10,7 @@ import (
 	"github.com/christianxiao/tendermint/abci/types"
 	cmn "github.com/christianxiao/tendermint/libs/common"
 	"github.com/christianxiao/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 var (

@@ -27,7 +27,7 @@ import (
 	"github.com/christianxiao/tendermint/types"
 	tmtime "github.com/christianxiao/tendermint/types/time"
 	"github.com/christianxiao/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/christianxiao/tm-db"
 )
 
 func TestNodeStartStop(t *testing.T) {
