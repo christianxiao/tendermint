@@ -36,3 +36,5 @@ require (
 	golang.org/x/text v0.3.2 // indirect
 	google.golang.org/grpc v1.23.1
 )
+
+replace github.com/tendermint/tendermint => github.com/christianxiao/tendermint v0.26.0-dev0
