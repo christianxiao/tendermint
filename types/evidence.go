@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/christianxiao/tendermint/crypto/tmhash"
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/crypto/tmhash"
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/merkle"
+	"github.com/christianxiao/tendermint/crypto"
+	"github.com/christianxiao/tendermint/crypto/merkle"
 )
 
 const (
@@ -84,7 +84,7 @@ const (
 // allowed in the block and their maximum total size (limitted to 1/10th
 // of the maximum block size).
 // TODO: change to a constant, or to a fraction of the validator set size.
-// See https://github.com/tendermint/tendermint/issues/2590
+// See https://github.com/christianxiao/tendermint/issues/2590
 func MaxEvidencePerBlock(blockMaxBytes int64) (int64, int64) {
 	maxBytes := blockMaxBytes / MaxEvidenceBytesDenominator
 	maxNum := maxBytes / MaxEvidenceBytes

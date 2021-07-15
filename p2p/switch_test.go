@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/christianxiao/tendermint/config"
+	"github.com/christianxiao/tendermint/crypto/ed25519"
+	"github.com/christianxiao/tendermint/libs/log"
+	"github.com/christianxiao/tendermint/p2p/conn"
 )
 
 var (

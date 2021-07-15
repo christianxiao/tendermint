@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/christianxiao/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/assert"
-	"github.com/tendermint/tendermint/crypto/ed25519"
 )
 
 func TestNodeInfoValidate(t *testing.T) {

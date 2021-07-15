@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	monitor "github.com/tendermint/tendermint/tools/tm-monitor/monitor"
-	tmtypes "github.com/tendermint/tendermint/types"
+	monitor "github.com/christianxiao/tendermint/tools/tm-monitor/monitor"
+	tmtypes "github.com/christianxiao/tendermint/types"
 )
 
 func TestNetworkNewBlock(t *testing.T) {

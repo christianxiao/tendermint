@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	tmtime "github.com/tendermint/tendermint/types/time"
-	"github.com/tendermint/tendermint/version"
+	"github.com/christianxiao/tendermint/crypto"
+	"github.com/christianxiao/tendermint/crypto/tmhash"
+	cmn "github.com/christianxiao/tendermint/libs/common"
+	tmtime "github.com/christianxiao/tendermint/types/time"
+	"github.com/christianxiao/tendermint/version"
 )
 
 func TestMain(m *testing.M) {

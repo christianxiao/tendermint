@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/christianxiao/tendermint/crypto"
+	"github.com/christianxiao/tendermint/crypto/ed25519"
+	"github.com/christianxiao/tendermint/crypto/tmhash"
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
 )
 
 func examplePrevote() *Vote {

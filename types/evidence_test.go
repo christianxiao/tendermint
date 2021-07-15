@@ -4,10 +4,10 @@ import (
 	"math"
 	"testing"
 
+	"github.com/christianxiao/tendermint/crypto/secp256k1"
+	"github.com/christianxiao/tendermint/crypto/tmhash"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/tendermint/tendermint/crypto/tmhash"
 )
 
 type voteData struct {

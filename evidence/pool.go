@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	clist "github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
+	clist "github.com/christianxiao/tendermint/libs/clist"
+	"github.com/christianxiao/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	sm "github.com/christianxiao/tendermint/state"
+	"github.com/christianxiao/tendermint/types"
 )
 
 // EvidencePool maintains a pool of valid evidence

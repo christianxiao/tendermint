@@ -10,12 +10,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/tendermint/tendermint/config"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cfg "github.com/christianxiao/tendermint/config"
+	cmn "github.com/christianxiao/tendermint/libs/common"
+	"github.com/christianxiao/tendermint/p2p"
+	"github.com/christianxiao/tendermint/privval"
+	"github.com/christianxiao/tendermint/types"
+	tmtime "github.com/christianxiao/tendermint/types/time"
 )
 
 var (

@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
+	abcicli "github.com/christianxiao/tendermint/abci/client"
+	"github.com/christianxiao/tendermint/abci/example/kvstore"
+	"github.com/christianxiao/tendermint/abci/server"
+	"github.com/christianxiao/tendermint/abci/types"
+	cmn "github.com/christianxiao/tendermint/libs/common"
+	"github.com/christianxiao/tendermint/libs/log"
 )
 
 //----------------------------------------

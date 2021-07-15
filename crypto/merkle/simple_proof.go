@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/christianxiao/tendermint/crypto/tmhash"
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/crypto/tmhash"
 )
 
 const (

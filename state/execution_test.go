@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
+	"github.com/christianxiao/tendermint/abci/example/kvstore"
+	abci "github.com/christianxiao/tendermint/abci/types"
+	"github.com/christianxiao/tendermint/crypto/ed25519"
+	"github.com/christianxiao/tendermint/crypto/secp256k1"
+	"github.com/christianxiao/tendermint/libs/log"
+	"github.com/christianxiao/tendermint/mock"
+	"github.com/christianxiao/tendermint/proxy"
+	sm "github.com/christianxiao/tendermint/state"
+	"github.com/christianxiao/tendermint/types"
+	tmtime "github.com/christianxiao/tendermint/types/time"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mock"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
 )
 
 var (

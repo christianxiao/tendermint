@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	abci "github.com/christianxiao/tendermint/abci/types"
+	"github.com/christianxiao/tendermint/crypto"
+	cmn "github.com/christianxiao/tendermint/libs/common"
 )
 
 const (

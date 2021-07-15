@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 
+	cmn "github.com/christianxiao/tendermint/libs/common"
+	"github.com/christianxiao/tendermint/p2p"
+	"github.com/christianxiao/tendermint/p2p/conn"
 	amino "github.com/tendermint/go-amino"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/conn"
 )
 
 type Peer = p2p.Peer
@@ -521,7 +521,7 @@ func (r *PEXReactor) dialPeer(addr *p2p.NetAddress) error {
 		// TODO(melekes): have a blacklist in the addrbook with peers whom we've
 		// failed to connect to. Then we can clean up attemptsToDial, which acts as
 		// a blacklist currently.
-		// https://github.com/tendermint/tendermint/issues/3572
+		// https://github.com/christianxiao/tendermint/issues/3572
 		r.book.MarkBad(addr)
 		return errMaxAttemptsToDial{}
 	}

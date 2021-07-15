@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	abci "github.com/christianxiao/tendermint/abci/types"
+	"github.com/christianxiao/tendermint/crypto"
+	cmn "github.com/christianxiao/tendermint/libs/common"
 
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	"github.com/christianxiao/tendermint/p2p"
+	"github.com/christianxiao/tendermint/state"
+	"github.com/christianxiao/tendermint/types"
 )
 
 // List of blocks

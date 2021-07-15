@@ -39,7 +39,7 @@ import (
 	"errors"
 	"sync"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/christianxiao/tendermint/libs/common"
 )
 
 type operation int

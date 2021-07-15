@@ -3,9 +3,9 @@ package proxy
 import (
 	"github.com/pkg/errors"
 
-	log "github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/lite"
-	lclient "github.com/tendermint/tendermint/lite/client"
+	log "github.com/christianxiao/tendermint/libs/log"
+	"github.com/christianxiao/tendermint/lite"
+	lclient "github.com/christianxiao/tendermint/lite/client"
 	dbm "github.com/tendermint/tm-db"
 )
 

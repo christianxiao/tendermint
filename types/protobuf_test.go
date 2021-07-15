@@ -7,12 +7,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 
+	abci "github.com/christianxiao/tendermint/abci/types"
+	"github.com/christianxiao/tendermint/crypto"
+	"github.com/christianxiao/tendermint/crypto/ed25519"
+	"github.com/christianxiao/tendermint/crypto/secp256k1"
+	"github.com/christianxiao/tendermint/version"
 	amino "github.com/tendermint/go-amino"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/tendermint/tendermint/version"
 )
 
 func TestABCIPubKey(t *testing.T) {
@@ -130,7 +130,7 @@ func TestABCIHeader(t *testing.T) {
 	// assert the encodings match
 	// NOTE: they don't yet because Amino encodes
 	// int64 as zig-zag and we're using non-zigzag in the protobuf.
-	// See https://github.com/tendermint/tendermint/issues/2682
+	// See https://github.com/christianxiao/tendermint/issues/2682
 	_, _ = headerBz, pbHeaderBz
 	// assert.EqualValues(t, headerBz, pbHeaderBz)
 

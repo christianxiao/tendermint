@@ -5,8 +5,8 @@ package secp256k1
 import (
 	"testing"
 
+	"github.com/christianxiao/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
 )
 
 // Ensure that signature verification works, and that

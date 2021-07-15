@@ -37,4 +37,4 @@ require (
 	google.golang.org/grpc v1.23.1
 )
 
-replace github.com/tendermint/tendermint => github.com/christianxiao/tendermint v0.26.0-dev0
+// replace github.com/christianxiao/tendermint => github.com/christianxiao/tendermint v0.26.0-dev0

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/christianxiao/tendermint/libs/log"
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 const maxPingPongPacketSize = 1024 // bytes
@@ -267,7 +267,7 @@ func TestMConnectionMultiplePings(t *testing.T) {
 	defer mconn.Stop()
 
 	// sending 3 pings in a row (abuse)
-	// see https://github.com/tendermint/tendermint/issues/1190
+	// see https://github.com/christianxiao/tendermint/issues/1190
 	_, err = server.Write(cdc.MustMarshalBinaryLengthPrefixed(PacketPing{}))
 	require.Nil(t, err)
 	var pkt PacketPong

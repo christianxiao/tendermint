@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/christianxiao/tendermint/crypto/ed25519"
+	"github.com/christianxiao/tendermint/types"
+	tmtime "github.com/christianxiao/tendermint/types/time"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
 )
 
 func TestGenLoadValidator(t *testing.T) {

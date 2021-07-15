@@ -8,11 +8,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	"github.com/christianxiao/tendermint/libs/log"
+	"github.com/christianxiao/tendermint/p2p"
+	sm "github.com/christianxiao/tendermint/state"
+	"github.com/christianxiao/tendermint/store"
+	"github.com/christianxiao/tendermint/types"
 )
 
 const (

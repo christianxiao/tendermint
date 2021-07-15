@@ -9,11 +9,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/christianxiao/tendermint/config"
+	"github.com/christianxiao/tendermint/libs/clist"
+	"github.com/christianxiao/tendermint/libs/log"
+	"github.com/christianxiao/tendermint/p2p"
+	"github.com/christianxiao/tendermint/types"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/christianxiao/tendermint/libs/log"
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/libs/log"
 )
 
 func TestTracingLogger(t *testing.T) {

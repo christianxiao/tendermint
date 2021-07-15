@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
+	"github.com/christianxiao/tendermint/crypto/merkle"
 )
 
 // MaxTotalVotingPower - the maximum allowed total voting power.

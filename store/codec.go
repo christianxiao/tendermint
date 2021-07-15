@@ -1,8 +1,8 @@
 package store
 
 import (
+	"github.com/christianxiao/tendermint/types"
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/types"
 )
 
 var cdc = amino.NewCodec()

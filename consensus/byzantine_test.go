@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	cmn "github.com/christianxiao/tendermint/libs/common"
+	"github.com/christianxiao/tendermint/p2p"
+	sm "github.com/christianxiao/tendermint/state"
+	"github.com/christianxiao/tendermint/types"
 	"github.com/stretchr/testify/require"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
 )
 
 //----------------------------------------------
